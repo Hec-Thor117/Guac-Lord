@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600&display=swap');
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  font-family: "Quicksand", sans-serif;
+}
+
+.main{
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem;
+}
+
+.app {
+  background-color: #115e1b;
+  color: #fff;
+  width: 700px;
+  min-height: 300px;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 10px 10px 42px 0px #000000bf;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+
+/* TITLE SECTION */
+
+.header {
+  /* background-color: lightgreen; */
+  padding: 1.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 6px 5px #003d08;
+}
+
+.title {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.sub-title {
+  font-size: 1.25rem;
+  margin: .5rem;
+}
+
+.sub-title-bold {
+  color: #115e1b;
+  font-size: 1.5rem;
+}
+
+/* QUESTION SECTION */
+
+.question-section {
+  width: 100%;
+  position: relative;
+}
+
+.question-count {
+  margin-bottom: 20px;
+}
+
+.question-count span {
+  font-size: 28px;
+}
+
+.question-text {
+  margin-bottom: 12px;
+  font-size: 2rem;
+}
+
+/* ANSWERS SECTION */
+
+.answer-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+button {
+  width: 100%;
+  font-size: 1.125rem;
+  color: #fff;
+  background-color: #003d08;
+  border-radius: 15px;
+  display: flex;
+  padding: 5px;
+  margin-top: 16px;
+  justify-content: flex-start;
+  border: 5px solid #5fa80c;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background-color: #96c09a;
+}
+
+button:focus {
+  outline: none;
+}
+
+.score-section {
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.score-section button {
+  width: 200px;
+  /* padding: .5rem 1rem; */
+  display: flex;
+  justify-content: center;
+}
