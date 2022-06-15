@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/guac-lord/static/css/main.eca4b37f.css",
+    "main.js": "/guac-lord/static/js/main.26e234c1.js",
+    "index.html": "/guac-lord/index.html",
+    "main.eca4b37f.css.map": "/guac-lord/static/css/main.eca4b37f.css.map",
+    "main.26e234c1.js.map": "/guac-lord/static/js/main.26e234c1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eca4b37f.css",
+    "static/js/main.26e234c1.js"
+  ]
+}
